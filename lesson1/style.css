@@ -1,0 +1,35 @@
+table,
+th,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#mytable {
+    color: orange;
+}
+
+.mytable_class {
+    background: pink;
+}
+
+ul.info>li {
+    list-style: none;
+}
+
+ol li a[target="_blank"] {
+    color: yellow;
+}
+
+ol li a[href*="google"] {
+    color: pink;
+}
+
+ol li a[href$="com"] {
+    background: black;
+}
+
+ol li a[href*=git][href$="au"] {
+    background: blue;
+}

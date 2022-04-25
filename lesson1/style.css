@@ -18,12 +18,17 @@ ul.info>li {
     list-style: none;
 }
 
+ul.info>li li:nth-child(1) {
+    list-style: none;
+}
+
 ol li a[target="_blank"] {
     color: yellow;
 }
 
 ol li a[href*="google"] {
     color: pink;
+    text-decoration: none;
 }
 
 ol li a[href$="com"] {

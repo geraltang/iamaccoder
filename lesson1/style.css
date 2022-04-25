@@ -1,17 +1,17 @@
 table,
 th,
 td {
-    border: 1px solid grey;
+    border: 10px solid rgb(227, 24, 24);
     border-collapse: collapse;
     text-align: center;
 }
 
 #mytable {
-    color: orange;
+    color: rgb(98, 72, 203);
 }
 
 .mytable_class {
-    background: pink;
+    background: rgb(186, 175, 177);
 }
 
 ul.info>li {

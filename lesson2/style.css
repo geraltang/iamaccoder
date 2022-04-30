@@ -6,25 +6,25 @@ body {
     height: 100vh;
 }
 
-/* 
-.upper {
+/* span.upper {
     font-weight: bold;
     font-size: 80px;
 }
 
-.pesudo::first-letter {
-    font-size: 10px;
+.pseudo::first-letter {
+    font-weight: bold;
+    font-size: 80px;
 }
 
 .pseudo::selection {
     background: pink;
 }
 
-.pseudo::before {
+p.pseudo::before {
     content: "11111111111";
     display: block;
     width: 30px;
-    height: 10px;
+    height: 100px;
     background: red;
 }
 
@@ -68,16 +68,16 @@ body {
 .block2_sub:nth-child(2) {
     background: blue;
     position: absolute;
-    left: 30px;
+    left: 50px;
     top: 50px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .block2_sub:nth-child(3) {
     background: purple;
     position: relative;
     top: 30px;
-    z-index: 0;
+    z-index: 1;
 }
 
 * {
@@ -135,7 +135,7 @@ body {
     flex-shrink: 1; */
 }
 
-/* .block5_sub:nth-child(3) {
+.block5_sub:nth-child(3) {
     flex-grow: 3;
 }
 
@@ -146,7 +146,7 @@ body {
 .block5_sub:nth-child(4) {
     flex-grow: 2;
     flex-shrink: 3;
-} */
+}
 
 .block5_sub:nth-child(3) {
     /* align-self: flex-start; */

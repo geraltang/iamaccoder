@@ -118,12 +118,12 @@ p.pseudo::before {
     position: relative;
     overflow: hidden;
     display: flex;
-    flex-flow: wrap;
-    flex-direction: column;
-    /* align-content: center;
-    justify-content: center; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-content: center; */
+    /* justify-content: center; */
     /* place-content: center; */
-    /* align-items: center; */
+    align-items: center;
 }
 
 .block5_sub {
@@ -135,7 +135,7 @@ p.pseudo::before {
     flex-shrink: 1; */
 }
 
-.block5_sub:nth-child(3) {
+/* .block5_sub:nth-child(3) {
     flex-grow: 3;
 }
 
@@ -146,25 +146,25 @@ p.pseudo::before {
 .block5_sub:nth-child(4) {
     flex-grow: 2;
     flex-shrink: 3;
-}
+} */
 
 .block5_sub:nth-child(3) {
-    /* align-self: flex-start; */
+    align-self: flex-start;
     order: -1;
 }
 
 
 .block5_sub:nth-child(4) {
-    /* align-self: flex-start; */
+    align-self: flex-start;
     order: -1;
 }
 
 .block5_sub:nth-child(5) {
-    /* align-self: flex-start; */
+    align-self: flex-start;
     order: -1;
 }
 
 .block5_sub:nth-child(6) {
-    /* align-self: flex-start; */
+    align-self: flex-start;
     order: 2;
 }

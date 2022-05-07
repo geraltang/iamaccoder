@@ -50,7 +50,7 @@ body {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('image/menu.svg');
+    background: url(/project1/src/image/menu.svg);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;

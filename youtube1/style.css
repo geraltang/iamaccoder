@@ -97,8 +97,28 @@ body {
     filter: invert(1);
 }
 
-@media (max-width:1200px) {
+.main-structure .content video,
+.main-structure .content .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
+.main-structure .content video {
+    object-fit: cover;
+    clip-path: ellipse(0% 0% at 0% 50%);
+    padding: 0;
+    margin: 0;
+}
+
+.main-structure .content video.active{
+    clip-path: ellipse(150% 70% at 0% 50%);
+}
+
+@media (max-width:1200px) {
     .main-structure {
         font-size: var(--main-pad-font-size)
     }

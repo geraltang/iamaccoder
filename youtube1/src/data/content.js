@@ -1,6 +1,6 @@
 const CONTENT_INFO = {
     island: {
-        h1: "Never Stop",
+        h1: "Never Stopping",
         h2: "Explore The World",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat "
     },

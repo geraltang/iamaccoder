@@ -126,7 +126,7 @@ body {
 .main-structure footer a img {
     width: var(--footer-icon-width);
     filter: invert(1);
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 .main-structure footer a img:hover{
@@ -178,7 +178,7 @@ body {
 
 .content .text-description p {
     font-size: var(--text-description-p-desktop-size);
-    line-height: 1.5em;
+    line-height: 1.6em;
     max-width: 700px;
     min-width: 400px;
     margin: 3em 0;

@@ -239,8 +239,8 @@ body {
     .content .text-description p {
         font-size: var(--text-description-p-pad-size);
         line-height: 1.5em;
-        max-width: 500px;
-        min-width: 300px;
+        max-width: 501px;
+        min-width: 302px;
     }
 }
 

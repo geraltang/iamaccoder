@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 
-/* span.upper {
+span.upper {
     font-weight: bold;
     font-size: 80px;
 }
@@ -22,7 +22,7 @@ body {
 
 p.pseudo::before {
     content: "11111111111";
-    display: block;
+    display: inline;
     width: 30px;
     height: 100px;
     background: red;
@@ -30,7 +30,7 @@ p.pseudo::before {
 
 .pseudo::after {
     content: "111111111111***";
-} */
+}
 
 .block1 {
     width: 300px;
